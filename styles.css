@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+:root{
+    --bg-color:#6B6039;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    background-color: var(--bg-color);
+    background:url(/Images/sven-scheuermeier-tqzqzH8hb5A-unsplash.jpg);
+    background-size: 100%; 
+}
+
+.Header-img{
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}
+.Header-Heading{
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: var(--dark-grey);
+    text-align: center;
+}
+.dropdown{
+    display: block;
+    border-radius: 2rem;
+    float: right;
+    margin-right: 4%;
+    padding: 0.5rem;
+    border: 1px solid white;
+}
+.dropdown .dropdown-options{
+    background-color: transparent;
+     color: black;   
+}
+.translator-input{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 10vh;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 1rem;
+}
+.output-div{
+    background-color: white;
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 10vh;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+
+    padding: 1rem;
+}
+.btn-translate{
+    background-color: white;
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 8vh;
+    /* border-radius: 1rem; */
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: transparent;
+    color: white;
+    font-size:15px ;
+    font-weight: bold;
+    border: 0.9px solid white;
+    padding: 1rem;
+    
+}
+footer{
+    
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    margin-top:1rem;
+    border:1px solid white;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
